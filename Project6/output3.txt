@@ -1,0 +1,18 @@
+Initial Values:
+Number of processes: 3
+Number of resource types: 4
+Existing Resource Vector
+4 2 3 1 
+Current Allocation Matrix
+0 0 1 0 
+2 0 0 1 
+0 1 2 0 
+Request Matrix
+2 0 0 1 
+1 0 1 0 
+2 1 0 1 
+Available Resource Vector
+2 1 0 0 
+
+System is deadlocked
+Deadlocked processes: 0 1 2 

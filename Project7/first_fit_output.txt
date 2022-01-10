@@ -1,0 +1,124 @@
+hole:  start 0, size 50
+
+load A 10
+A:  start 0, size 10
+hole:  start 10, size 40
+
+load B 10
+A:  start 0, size 10
+B:  start 10, size 10
+hole:  start 20, size 30
+
+load C 2
+A:  start 0, size 10
+B:  start 10, size 10
+C:  start 20, size 2
+hole:  start 22, size 28
+
+load D 1
+A:  start 0, size 10
+B:  start 10, size 10
+C:  start 20, size 2
+D:  start 22, size 1
+hole:  start 23, size 27
+
+load E 2
+A:  start 0, size 10
+B:  start 10, size 10
+C:  start 20, size 2
+D:  start 22, size 1
+E:  start 23, size 2
+hole:  start 25, size 25
+
+load F 5
+A:  start 0, size 10
+B:  start 10, size 10
+C:  start 20, size 2
+D:  start 22, size 1
+E:  start 23, size 2
+F:  start 25, size 5
+hole:  start 30, size 20
+
+load G 20
+A:  start 0, size 10
+B:  start 10, size 10
+C:  start 20, size 2
+D:  start 22, size 1
+E:  start 23, size 2
+F:  start 25, size 5
+G:  start 30, size 20
+
+load X 30
+Unable to load process X
+A:  start 0, size 10
+B:  start 10, size 10
+C:  start 20, size 2
+D:  start 22, size 1
+E:  start 23, size 2
+F:  start 25, size 5
+G:  start 30, size 20
+
+unload A
+hole:  start 0, size 10
+B:  start 10, size 10
+C:  start 20, size 2
+D:  start 22, size 1
+E:  start 23, size 2
+F:  start 25, size 5
+G:  start 30, size 20
+
+unload G
+hole:  start 0, size 10
+B:  start 10, size 10
+C:  start 20, size 2
+D:  start 22, size 1
+E:  start 23, size 2
+F:  start 25, size 5
+hole:  start 30, size 20
+
+unload C
+hole:  start 0, size 10
+B:  start 10, size 10
+hole:  start 20, size 2
+D:  start 22, size 1
+E:  start 23, size 2
+F:  start 25, size 5
+hole:  start 30, size 20
+
+unload E
+hole:  start 0, size 10
+B:  start 10, size 10
+hole:  start 20, size 2
+D:  start 22, size 1
+hole:  start 23, size 2
+F:  start 25, size 5
+hole:  start 30, size 20
+
+unload D
+hole:  start 0, size 10
+B:  start 10, size 10
+hole:  start 20, size 5
+F:  start 25, size 5
+hole:  start 30, size 20
+
+load H 5
+H:  start 0, size 5
+hole:  start 5, size 5
+B:  start 10, size 10
+hole:  start 20, size 5
+F:  start 25, size 5
+hole:  start 30, size 20
+
+unload B
+H:  start 0, size 5
+hole:  start 5, size 20
+F:  start 25, size 5
+hole:  start 30, size 20
+
+unload H
+hole:  start 0, size 25
+F:  start 25, size 5
+hole:  start 30, size 20
+
+unload F
+hole:  start 0, size 50
